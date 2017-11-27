@@ -4,6 +4,8 @@
   "description": "James Tam's Resume Showcase with Pure React.js, Mongo DB, ES6, Babel, Node.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore publc/",
+    "dev": "webpack -wd",
     "test": "test"
   },
   "keywords": [

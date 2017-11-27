@@ -10,5 +10,31 @@
     "JamesTam"
   ],
   "author": "James Tam",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DapperStacks/ResumeStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DapperStacks/ResumeStack/issues"
+  },
+  "homepage": "https://github.com/DapperStacks/ResumeStack#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "mongodb": "^2.2.33",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.12.0",
+    "eslint-plugin-react": "^7.5.1",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
+  }
 }

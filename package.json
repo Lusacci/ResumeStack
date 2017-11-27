@@ -1,0 +1,14 @@
+{
+  "name": "resumestack",
+  "version": "1.0.0",
+  "description": "James Tam's Resume Showcase with Pure React.js, Mongo DB, ES6, Babel, Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "JamesTam"
+  ],
+  "author": "James Tam",
+  "license": "ISC"
+}

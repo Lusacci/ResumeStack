@@ -1,8 +1,8 @@
 const env = process.env;
 
-export const nodeEnv = env.NODE_ENV || "development";
+export const nodeEnv = env.NODE_ENV || "developmentByJamesTam";
 
-export const logStars = function(message) {
+export const jtLog = function(message) {
     console.info("******");
     console.info(message);
     console.info("******");

@@ -1,5 +1,5 @@
 import apiRouter from './api';
-import config, { nodeEnv, logStars } from './config';
+import config, { nodeEnv, jtLog } from './config';
 import express from 'express';
 
 
@@ -12,7 +12,7 @@ server.set('view engine', 'ejs'); //Pure Magic.
 //This is the default.
 server.get('/', (req, res) => {
     res.render('index', {
-        content: "Hello Express with <em>EJS</em>!"
+        content: "James Tam's Resume Stack with EJS is currently in development!"
     }); //Make sure you pass the name of the template. (ejs)
 });
 
@@ -30,4 +30,4 @@ server.listen(config.port, () => {
 
 console.log(config, nodeEnv);
 
-logStars('Function');
+jtLog('Function');

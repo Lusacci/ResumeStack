@@ -3,43 +3,64 @@
         {
             "id" : 1,
             "categoryName": "BasicJTProfile",
-            "categoryDescription" : "This is going to be my tiny profile image icon next to nav bar."
+            "categoryDescription" : "This is going to be my tiny profile image icon next to nav bar.",
+            "title" : "Make Title an Array that I get the current one from."
         },
 
         {
             "id" : 2,
             "categoryName": "Work Experience",
-            "categoryDescription" : "This is going to be where I put my work experience."
+            "categoryDescription" : "This is going to be where I put my work experience.",
+            "title": "All titles I've had , same size array",
+            "responsibilities": "This has to also be an array, same size array",
+            "value": "what value I brought to the company, same size array",
+            "Timeline" : "When I worked for a job , same size array"
         },
 
         {
             "id" : 3,
             "categoryName": "Bio",
-            "categoryDescription" : "This is going to be my professional biography."
+            "categoryDescription" : "This is going to be my professional biography.",
+            "ideology" : "talk about philosophy and passion here.",
+            "experience": "this should be how each experience shaped my career."
         },
 
         {
             "id" : 4,
             "categoryName": "Projects",
-            "categoryDescription" : "This is going to showcase my projects."
+            "categoryDescription" : "This is going to showcase my projects.",
+            "projects" : {
+                    "projectId" : "1",
+                    "project-header" : "Header of a project",
+                    "project-desc" : "description of the project, possibly make as an array"
+            }
         },
         
         {
             "id" : 5,
             "categoryName": "Education",
-            "categoryDescription" : "This is going to display my education history."
+            "categoryDescription" : "This is going to display my education history.",
+            "degree" : "Put in degree credentials here.",
+            "profReccomendations" : "Insert Professor Recommendations here",
+            "classCurriculum" : "this may be just the 4 year plan.",
+            "activity" : "display activities, maybe array."
         },
 
         {
             "id" : 6,
             "categoryName": "Awards",
-            "categoryDescription" : "This is going to show my awards."
+            "categoryDescription" : "This is going to show my awards.",
+            "awardList" : "make me into an array, include images, desc., title, links, contact/recommendations."
         },
 
         {
             "id" : 7,
             "categoryName": "Contact",
-            "categoryDescription" : "This is going to display contact information"
+            "categoryDescription" : "This is going to display contact information, github, discord, linked in.",
+            "phoneNumber" : "insert number here",
+            "email" : "insert email here",
+            "location" : "general location here for work."
+
         }
     ]
 }

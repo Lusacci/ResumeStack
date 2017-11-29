@@ -46,3 +46,5 @@ React generates HTML with javascript because:
 
 React generates bundle.js through webpack, and the map too. BECAREFUL With the webpack.config.js file! syntax is important. 
 
+bundle.js may be too big to host on GitHub. looking into this. 
+

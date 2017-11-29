@@ -1,0 +1,45 @@
+{
+    "JTProfile": [
+        {
+            "id" : 1,
+            "categoryName": "BasicJTProfile",
+            "categoryDescription" : "This is going to be my tiny profile image icon next to nav bar."
+        },
+
+        {
+            "id" : 2,
+            "categoryName": "Work Experience",
+            "categoryDescription" : "This is going to be where I put my work experience."
+        },
+
+        {
+            "id" : 3,
+            "categoryName": "Bio",
+            "categoryDescription" : "This is going to be my professional biography."
+        },
+
+        {
+            "id" : 4,
+            "categoryName": "Projects",
+            "categoryDescription" : "This is going to showcase my projects."
+        },
+        
+        {
+            "id" : 5,
+            "categoryName": "Education",
+            "categoryDescription" : "This is going to display my education history."
+        },
+
+        {
+            "id" : 6,
+            "categoryName": "Awards",
+            "categoryDescription" : "This is going to show my awards."
+        },
+
+        {
+            "id" : 7,
+            "categoryName": "Contact",
+            "categoryDescription" : "This is going to display contact information"
+        }
+    ]
+}

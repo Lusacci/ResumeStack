@@ -2,10 +2,10 @@ import React from 'react';
 
 const ResumePreview = (JTProfile) => (
     <div className="ResumePreview">
-        <div>
+        <div className="category-name">
             {JTProfile.categoryName}
         </div>
-        <div>
+        <div className="category-description">
             {JTProfile.categoryDescription}
         </div>
     </div>

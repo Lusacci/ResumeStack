@@ -27,6 +27,7 @@
     "gitignore": "^0.6.0",
     "json-loader": "^0.5.7",
     "mongodb": "^2.2.33",
+    "node-sass-middleware": "^0.11.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   },

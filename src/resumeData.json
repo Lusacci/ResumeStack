@@ -4,62 +4,257 @@
             "id" : 1,
             "categoryName": "BasicJTProfile",
             "categoryDescription" : "This is going to be my tiny profile image icon next to nav bar.",
-            "title" : "Make Title an Array that I get the current one from."
+            "title" : "Full-Stack Web Developer"
         },
 
         {
             "id" : 2,
             "categoryName": "Work Experience",
-            "categoryDescription" : "This is going to be where I put my work experience.",
-            "title": "All titles I've had , same size array",
-            "responsibilities": "This has to also be an array, same size array",
-            "value": "what value I brought to the company, same size array",
-            "Timeline" : "When I worked for a job , same size array"
+            "categoryDescription" : "I've worn several different hats as a professional over the course of my undergraduate career. Practice, motivation, and a burning passion in my field, I've had the privilege of giving 110% in my endeavors.",
+            "content": [
+                {
+                    "id": "1",
+                    "title": "Full-Stack Web Developer",
+                    "affiliation" : "California State University Northridge",
+                    "responsibilities": [
+                        {
+                            "id": "1",
+                            "roles" : "As a full-time student, maintain stellar grades throughout the Fall Semester of 2017.",
+                            "purpose": "It is my utmost intent to finish my undergraduate student career on a strong note, maintaining positive relationships with peers and professors in the pursuit of learning.",
+                            "tools": "jsbin, html, javascript, css, php, xampp, Visual Studio 2017, canvas, moodle."
+                        },
+                        {
+                            "id": "2",
+                            "roles" : "As a part-time Independent Contractor, work with phRemoteIT assisting with QuickBooks accounting applications for ADS-Paper-Packaging and providing effective IT and software solutions.",
+                            "purpose": "Maintaining a firm balance of learning and solving imminent issues is the key to effective solutions. Working part-time to solve issues to my clients has always left me with a smile.",
+                            "tools": "QuickBooks Desktop and Cloud, TeamViewer, SMTP protocol for POP3 servers"
+                        },
+                        {
+                            "id": "3",
+                            "roles" : "As a Full-Stack Web Developer, developed 2 separate client-server web applications in industry standard frameworks.",
+                            "purpose": "Implementing development concepts, building and deploying my own professional profile asset, and continuing my passion for learning new innovative technologies put to practice.",
+                            "tools": "Node.js, React.js, Boostrap 4, Mongo.DB, ejs, esLint, Babel, Webpack, express.js, nodemon, .NetCore2, angular2, C#, Entity Framework, Razor, MySQL express"
+                        }
+                    ],
+                    "Timeline" : "Current"
+                },
+                {
+                    "id": "2",
+                    "title": "Software Engineer Intern",
+                    "affiliation" : "The Aerospace Corporation",
+                    "responsibilities": [
+                        {
+                            "id": "1",
+                            "roles" : "Quality Assurance on a large-scale, 7+ multiyear project - Portfolio Decision Software Tool",
+                            "purpose": "The software product takes excell/XML data on architectural trade studies for analysis and enterprise-level decisions.",
+                            "tools": "C++, QT 5.9, Tortoise SVN, QWT library for 2D plots, Boost C++ Library"
+                        },
+                        {
+                            "id": "2",
+                            "roles" : "Software Developer - Geospatial Engine",
+                            "purpose": "Takes KML data and generates a 2D map projection of 2 halves of a globe to track objects in real time. Involved with template creation for handling vector calculations and unit tests.",
+                            "tools": "C++, QT 5.5, Geospatial Libraries (gdal), Atlassian JIRA close-source packages, Hg Mercurial, Freetype 2.5.5, KML Data (Keyhole Markup Language)"
+                        },
+                        {
+                            "id": "3",
+                            "roles" : "Full-Stack Q/A Web Development - iLab",
+                            "purpose": "Perform Q/A duties with development team throughout website integration of Bootstrap. Fixed multiple bugs, issues, reimplementation of modules between front and back-end development.",
+                            "tools" : "XAMPP, LDAP, MYSQL, PHP, AJAX, Bootstrap, HTML, CSS, Javascript, JSON "
+                        },
+                        {
+                            "id": "4",
+                            "roles" : "Q/A - Model Based Systems Engineering",
+                            "purpose": "Perform Q/A duties for Mission Management procedural checks."                          
+                        }
+                    ],
+                    "Timeline" : "June 2017 - August 2017"
+                },
+                {
+                    "id": "3",
+                    "title": "Front-End Web Development Intern",
+                    "affiliation" : "PassKit",
+                    "responsibilities": [
+                        {
+                            "id": "1",
+                            "roles": "Web Development Intern",
+                            "purpose": "Assist with implementation of landing-page integrating the Bootstrap-framework for front and back end development. Integrated Angular JS and Ruby on Rails into current existing system, created a time-scheduling web application for employee check in and updates.",
+                            "tools": "WAMP, Brackets.io, HTML, CSS, Javascript, Bootstrap, PHP"
+                        }
+                    ],
+                    "Timeline" : "June 2015 - September 2015"
+                },
+                {
+                    "id": "4",
+                    "title": "Geek Squad CA",
+                    "affiliation" : "BestBuy",
+                    "responsibilities": "Facilitate customer relations with technical support on phones, tablets, desktops, and labtops. Assist with other retail positions from warehouse, home appliances, home theater, customer service, sales, and computers.",
+                    "purpose": "Working with customers and diagnosing technical problems for effective GeekSquad solutions.",
+                    "Timeline" : "August 2014 - January 2015"
+                }
+            ]
         },
 
         {
             "id" : 3,
             "categoryName": "Bio",
-            "categoryDescription" : "This is going to be my professional biography.",
-            "ideology" : "talk about philosophy and passion here.",
-            "experience": "this should be how each experience shaped my career."
+            "categoryDescription" : "An enthusiastic personality with a passionate disposition and energy to pursue the vast field of technology and computer science. Coming from a business background, an entrepreneurial spirit was instilled from a young age, with a personal drive to strive for excellence.",
+            "ideology" : "Relentless passion, positive attitude, and drive for success is key to my philosophy. I strive to bring that into any organization I commit to.",
+            "experience": "With every venture comes learning from experience that has reinforced the foundations of my values and personality. Selling candy as a teenager allowed me to learn the basics of business, ultimately leading up to my initial pursuit of Global Business Administration at the University of Redlands. Over time, my decision to transfer came from the encompassing interest in technologies, and thus spent the last few years honing knowledge."
         },
 
         {
             "id" : 4,
             "categoryName": "Projects",
-            "categoryDescription" : "This is going to showcase my projects.",
-            "projects" : {
+            "categoryDescription" : "Projects Showcase - Sources on GitHub (in progress)",
+            "projects" : [
+                {
                     "projectId" : "1",
-                    "project-header" : "Header of a project",
-                    "project-desc" : "description of the project, possibly make as an array"
-            }
+                    "project-header" : "ResumeStack",
+                    "project-desc" : "A full-stack dynamic web application that utilizes Node.js, React.js, Boostrap 4, Mongo.DB, and more node modules to host my portfolio data and provide a medium to create a network from the LinkedIn API to send SMS messages and email directly to me."
+                },
+                {
+                    "projectId" : "2",
+                    "project-header" : "Basewatch",
+                    "project-desc" : "A blog authentication client-server application in ASP.NetCore2 and C# that will serve as a interesting hub for Overwatch enthusiasts to discuss hero advantages/disadvantages across multiple maps by Blizzard. On Client-Side, utilizes Angular 2, SPA, REST Apis between server/client. On Server-Side, utilizes MVC with authentication, relational database, Object Relational Management, Entity Framework, and Razor Framework. Both sides will allow for dependency injection and unit testing."
+                },
+                {
+                    "projectId" : "3",
+                    "project-header" : "BasePlace",
+                    "project-desc" : "A company landing page in progress built with ASP.net and C#. Originally designed for as an independent student contracting venture, has been put on standstill until corporate qualifications are finished. "
+                },
+                {
+                    "projectId" : "4",
+                    "project-header" : "NAO Robo-Leader",
+                    "project-desc" : "Senior Design project centered on autonomous Live UAV protocol to control a variety of UAVs, UGVs, and VTOLs."
+                },
+                {
+                    "projectId" : "5",
+                    "project-header" : "Arduino Yun",
+                    "project-desc" : "A contract proprietary software that communicates with other microcontrollers for streaming data."
+                },
+                {
+                    "projectId" : "6",
+                    "project-header" : "Elderly Captcha Code",
+                    "project-desc" : "ACM Accessibility Competition at CSUN for solving the elderly captcha problem for Android devices."
+                },
+                {
+                    "projectId" : "7",
+                    "project-header" : "Pokemon Go Companion App.",
+                    "project-desc" : "Mobile and Web-based Android application created for finding and identifying pokemon in the popular Pokemon Go application."
+                },
+                {
+                    "projectId" : "8",
+                    "project-header" : "PFR-Hero",
+                    "project-desc" : "Time-scheduling application hooked into Slack and Zendesk for employee sign-in and task management for PassKit."
+                }
+                
+             ]
         },
         
         {
             "id" : 5,
             "categoryName": "Education",
-            "categoryDescription" : "This is going to display my education history.",
-            "degree" : "Put in degree credentials here.",
-            "profReccomendations" : "Insert Professor Recommendations here",
-            "classCurriculum" : "this may be just the 4 year plan.",
-            "activity" : "display activities, maybe array."
+            "categoryDescription" : "Educational Credentials",
+            "degree" : "Bachelor's of Computer Science expected graduation Spring 2018",
+            "profReccomendations" : [
+                {
+                    "id": "1",
+                    "poc": "Dr. Richard Covington",
+                    "title": "Department Chair of Computer Science",
+                    "link": "https://www.csun.edu/faculty/profiles/rick.covington"
+                },
+                {
+                    "id": "2",
+                    "poc": "Dr. Richard J Lorentz",
+                    "title": "Professor of Computer Science - Discrete Structures, Mathematics",
+                    "link": "http://www.csun.edu/faculty/profiles/richard.lorentz"
+                },
+                {
+                    "id": "3",
+                    "poc": "Dr. Gloria Melara",
+                    "title": "Professor of Computer Science - ACM Advisor 2014",
+                    "link": "http://www.csun.edu/faculty/profiles/gloria.melara"
+                },
+                {
+                    "id": "4",
+                    "poc": "Dr. Li Liu",
+                    "title": "Professor of Computer Science - User Experience, Web Development",
+                    "link": "http://www.csun.edu/faculty/profiles/li.liu"
+                },
+                {
+                    "id": "5",
+                    "poc": "Dr. Khanik Kerobyan",
+                    "title": "Professor of Mathematics",
+                    "link": "http://www.csun.edu/faculty/profiles/khanik.kerobyan"
+                }
+            ],
+            "classCurriculum" : "https://catalog.csun.edu/resource/road-map/2016/computer-science-2016/",
+            "activity" : [
+                {
+                    "id" : "1",
+                    "title": "National Delegate Representative - CSUN",
+                    "desc": "Selected by Millenium Momentum Foundation's Leadership Development Institute, includes vast leadership training over the course of 1 year by industry professionals, as well as coordinating the your turn intern expo held at the Los Angeles Staples Center.",
+                    "mmf": "http://www.millennium-momentum.org/",
+                    "socialMedia": "https://www.facebook.com/millenniummomentum/",
+                    "source": "http://yourturnintern.com/expo/"
+                },
+                {
+                    "id" : "2",
+                    "title": "Project Lead",
+                    "desc": "Team Lead of NAO-Robo Leader senior design project for Systems Engineering Research Lab at CSUN",
+                    "source":"https://github.com/CSUN-SERL/nao-robo-leader"
+                },
+                {
+                    "id" : "3",
+                    "title":"Treasurer of ACM",
+                    "desc":"Treasurer of ACM for the 2014-2015 term, created, organized, proposed annual budget to CSUN student government implemented the following year.",
+                    "socialMedia":"https://www.facebook.com/CSUNACM/",
+                    "source":"http://technews.acm.org/archives.cfm?fo=2017-11-nov/nov-29-2017.html"
+                },
+                {
+                    "id" : "4",
+                    "title": "Student Member of HKASC",
+                    "desc": "Member of the Hong Kong Association of Southern California",
+                    "socialMedia":"https://www.facebook.com/HKASC/",
+                    "source":"https://hkasc.org"
+                }
+            ]
         },
 
         {
             "id" : 6,
             "categoryName": "Awards",
-            "categoryDescription" : "This is going to show my awards.",
-            "awardList" : "make me into an array, include images, desc., title, links, contact/recommendations."
+            "categoryDescription" : "Awards Acquired throughout undergraduate career",
+            "awardList" : [
+                {
+                    "id": "1",
+                    "award" : "Graduate Certification - MMF Leadership Development Institute",
+                    "affiliation" : "Millenium Momentum Foundation",
+                    "poc": "Jason Seward",
+                    "source" : "http://www.millennium-momentum.org/bios/jason_bio.php",
+                    "contact" : "http://www.millennium-momentum.org/contact.php"  
+                },
+
+                {
+                    "id": "2",
+                    "award" : "2nd place for ACM Accessibilities Competition",
+                    "affiliation" : "ACM",
+                    "poc":"ACM Board",
+                    "source": "https://www.csun.edu/~acm/"
+                }
+            ]
         },
 
         {
             "id" : 7,
             "categoryName": "Contact",
-            "categoryDescription" : "This is going to display contact information, github, discord, linked in.",
-            "phoneNumber" : "insert number here",
-            "email" : "insert email here",
-            "location" : "general location here for work."
+            "categoryDescription" : "Profile Information",
+            "github" : "https://github.com/DapperStacks",
+            "linkedIn" : "https://www.linkedin.com/feed/",
+            "discord" : "DapperStacks#3641",
+            "phone" : "310-948-1203",
+            "email" : "jameswingtaktam697@yahoo.com",
+            "location" : "Los Angeles, CA"
 
         }
     ]

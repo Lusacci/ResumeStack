@@ -36,7 +36,7 @@
                             "tools": "Node.js, React.js, Boostrap 4, Mongo.DB, ejs, esLint, Babel, Webpack, express.js, nodemon, .NetCore2, angular2, C#, Entity Framework, Razor, MySQL express"
                         }
                     ],
-                    "Timeline" : "Current"
+                    "timeline" : "Current"
                 },
                 {
                     "id": "2",
@@ -67,7 +67,7 @@
                             "purpose": "Perform Q/A duties for Mission Management procedural checks."                          
                         }
                     ],
-                    "Timeline" : "June 2017 - August 2017"
+                    "timeline" : "June 2017 - August 2017"
                 },
                 {
                     "id": "3",
@@ -81,7 +81,7 @@
                             "tools": "WAMP, Brackets.io, HTML, CSS, Javascript, Bootstrap, PHP"
                         }
                     ],
-                    "Timeline" : "June 2015 - September 2015"
+                    "timeline" : "June 2015 - September 2015"
                 },
                 {
                     "id": "4",
@@ -89,7 +89,7 @@
                     "affiliation" : "BestBuy",
                     "responsibilities": "Facilitate customer relations with technical support on phones, tablets, desktops, and labtops. Assist with other retail positions from warehouse, home appliances, home theater, customer service, sales, and computers.",
                     "purpose": "Working with customers and diagnosing technical problems for effective GeekSquad solutions.",
-                    "Timeline" : "August 2014 - January 2015"
+                    "timeline" : "August 2014 - January 2015"
                 }
             ]
         },
@@ -155,6 +155,7 @@
             "id" : 5,
             "categoryName": "Education",
             "categoryDescription" : "Educational Credentials",
+            "unofficialTranscripts" : "",
             "degree" : "Bachelor's of Computer Science expected graduation Spring 2018",
             "profReccomendations" : [
                 {

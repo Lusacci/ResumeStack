@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from'react-dom';
 import App from './components/App';
-import data from './resumeData';
-
-
 
 //Render something 
 ReactDOM.render(
-    <App JTProfile={data.JTProfile}/>,
+    <App />,
     document.getElementById('jt-root') //render the react element in the document. 
 );
 

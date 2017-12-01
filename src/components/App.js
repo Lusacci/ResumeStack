@@ -1,22 +1,33 @@
 import React from 'react';
+import axios from 'axios';
 import ReactDOM from'react-dom';
 import Header from './Header';
 import ResumePreview from './ResumePreview';
 
+
 //Doing it like this adds states and lifecycles.
 
 class App extends React.Component {
+    
     state = {
         pageHeader:'James Tam',
-        test: 37
+        JTProfile:[]
     };
     
-    /*
+   
     //This checks mounted components.
     componentDidMount(){
-        //timers, listeners.
-        console.log('ya mounted!');
-        debugger;
+        //ajax ....
+        axios.get('/api/JTProfile')
+        .then(resp => {
+            this.setState({
+                JTProfile: resp.data.JTProfile
+            });
+        })
+        .catch(console.error)
+    }
+   
+     /*    
     }
     //This checks unmounted components.
     componentWillUnmount(){
@@ -31,11 +42,11 @@ class App extends React.Component {
             <div className="App">
                 <Header message={this.state.pageHeader}/>
                 <div>
-                    {this.props.JTProfile.map(JTProfile =>
-                    <ResumePreview {...JTProfile} />
-                    // use below to just get one.
-                    // <ResumePreview {...this.props.JTProfile[0]} />
-                )}
+                    {this.state.JTProfile.map(JTProfile =>
+                        <ResumePreview key={JTProfile.id} {...JTProfile} />
+                        // use below to just get one.
+                        // <ResumePreview {...this.props.JTProfile[0]} />
+                    )}
                 </div>
             </div>
         );

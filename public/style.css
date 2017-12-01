@@ -1,0 +1,10 @@
+.ResumePreview {
+  margin: 1em;
+  border: 1px solid #ccc; }
+  .ResumePreview .category-name {
+    border-bottom: 1px solid #ccc;
+    padding: .25em 0.5 em;
+    font-weight: bold;
+    background-color: #eee; }
+  .ResumePreview .contest-name {
+    padding: 0.5em; }

@@ -1,18 +1,26 @@
 import apiRouter from './api';
 import config, { nodeEnv, jtLog } from './config';
 import express from 'express';
-
+import sassMiddleware from 'node-sass-middleware';
+import path from 'path';
 
 //Going to create a server with express. 
 const server = express();
 
 server.set('view engine', 'ejs'); //Pure Magic. 
 
+server.use(sassMiddleware({
+    src: path.join(__dirname, 'sass'),
+    dest: path.join(__dirname, 'public')
+}));
+
+
+
 //Express get requests
 //This is the default.
 server.get('/', (req, res) => {
     res.render('index', {
-        content: "James Tam's Resume Stack with EJS is currently in development!"
+        content: "James Tam's Resume Stack in development!"
     }); //Make sure you pass the name of the template. (ejs)
 });
 

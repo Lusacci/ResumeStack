@@ -3,7 +3,6 @@
         {
             "id" : 1,
             "categoryName": "BasicJTProfile",
-            "categoryDescription" : "This is going to be my tiny profile image icon next to nav bar.",
             "title" : "Full-Stack Web Developer"
         },
 

@@ -1,3 +1,20 @@
+body {
+  padding-top: 10rem; }
+
+li {
+  padding-top: 1rem; }
+
+#elements {
+  display: block; }
+
+.nav .navbar-header {
+  display: inherit; }
+
+.img-profile {
+  max-width: 4rem;
+  max-height: 4rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+
 .ResumePreview {
   margin: 1em;
   border: 1px solid #ccc; }
@@ -6,5 +23,5 @@
     padding: .25em 0.5 em;
     font-weight: bold;
     background-color: #eee; }
-  .ResumePreview .contest-name {
+  .ResumePreview .category-description {
     padding: 0.5em; }

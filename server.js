@@ -7,7 +7,7 @@ import path from 'path';
 //Going to create a server with express. 
 const server = express();
 
-server.set('view engine', 'ejs'); //Pure Magic. 
+server.set('view engine', 'ejs'); //Pure Magic. Allows for ejs independent responsibility.
 
 server.use(sassMiddleware({
     src: path.join(__dirname, 'sass'),
@@ -15,12 +15,11 @@ server.use(sassMiddleware({
 }));
 
 
-
 //Express get requests
-//This is the default.
+//This is the default. if something crashes with webpack.
 server.get('/', (req, res) => {
     res.render('index', {
-        content: "James Tam's Resume Stack in development!"
+        content: "James Tam's Resume Stack initial development!"
     }); //Make sure you pass the name of the template. (ejs)
 });
 

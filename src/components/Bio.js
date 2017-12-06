@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ResumePreview = (JTProfile) => (
-    <div className="ResumePreview">
+const Bio = (JTProfile) => (
+    <div className="ResumePreview" id="Bio">
         <div className="category-name">
             {JTProfile.categoryName}
         </div>
@@ -9,10 +9,13 @@ const ResumePreview = (JTProfile) => (
             {JTProfile.categoryDescription}
         </div>
         <div className="category-description">
-            {JTProfile.title}
+            {JTProfile.ideology}
         </div>
-
+        <div className="category-description">
+            {JTProfile.experience}
+        </div>
+        
     </div>
 );
 
-export default ResumePreview;
+export default Bio;
